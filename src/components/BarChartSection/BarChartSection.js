@@ -6,7 +6,7 @@ const BarChartSection = ({ chartData }) => {
     return (
         <div className="barchart-section-container">
             <h1>Result</h1>
-            <ResponsiveContainer >
+            <ResponsiveContainer width="80%">
             <BarChart
                 data={chartData}
             >

@@ -1,5 +1,11 @@
 .barchart-section-container {
       padding-bottom: 10rem;
-      width: 70%;
+      width: 60%;
       height: 300px;
+}
+
+@media only screen and (max-width: 900px) {
+    .barchart-section-container {
+        width: 100%;
+  }
 }
