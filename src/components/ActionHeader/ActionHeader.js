@@ -6,7 +6,7 @@ const ActionHeader = ({ onSubmit, onClear }) => {
     return (
         <div className="action-header-container">
             <Button onButtonClick={onSubmit}>Submit</Button>
-            <Button onButtonClick={onClear}>OnClear</Button>
+            <Button onButtonClick={onClear}>Clear</Button>
         </div>
     )
 }
