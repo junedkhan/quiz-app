@@ -11,4 +11,5 @@ const ActionHeader = ({ onSubmit, onClear }) => {
     )
 }
 
-export default ActionHeader;
+// using memo to memoize some simple component
+export default React.memo(ActionHeader);
