@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .App {
+    flex-direction: column;
+  }
+  div.App:nth-child(2) {
+    margin-bottom: 4rem;
+  }
+}

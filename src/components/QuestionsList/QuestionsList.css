@@ -1,0 +1,8 @@
+.questions-list-container {
+    padding: 2rem 3rem;
+    padding-bottom: 4rem;
+}
+
+.disabled-questions {
+    pointer-events: none;
+}

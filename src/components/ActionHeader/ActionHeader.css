@@ -1,0 +1,16 @@
+.action-header-container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    background-color:lightcoral;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 900px) {
+    .action-header-container {
+        padding: 20px 10px;
+    }
+}
